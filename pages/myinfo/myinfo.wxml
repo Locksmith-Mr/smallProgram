@@ -1,0 +1,13 @@
+<view class="userpic">
+    <image src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text>{{userInfo.nickName}}</text>
+</view>
+<view>
+  <view>我的收藏</view>
+  <view>我的订单</view>
+   <view>我的地址</view>
+  <view>联系客服</view>
+    <view>关于我们</view>
+  <view>设置</view>
+</view>
+

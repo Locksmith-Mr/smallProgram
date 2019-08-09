@@ -1,13 +1,61 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/gov/gov",
+    "pages/classify/classify",
+    "pages/myinfo/myinfo"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "首页",
     "navigationBarTextStyle": "black"
   },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#DC143C",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "resource/home-default.png",
+        "selectedIconPath": "resource/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "resource/provider-default.png",
+        "selectedIconPath": "resource/provider-active.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "iconPath": "resource/buy-list-default.png",
+        "selectedIconPath": "resource/buy-list-active.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/myinfo/myinfo",
+        "iconPath": "resource/my-default.png",
+        "selectedIconPath": "resource/my-active.png",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "resource/my-default.png",
+        "selectedIconPath": "resource/my-active.png",
+        "text": "日志"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
   "sitemapLocation": "sitemap.json"
 }

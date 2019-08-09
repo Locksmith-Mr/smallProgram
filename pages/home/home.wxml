@@ -1,0 +1,33 @@
+<!--商城页面-->
+<!-- 轮播图 -->
+<swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+  <block wx:for="{{bnrUrl}}" wx:for-index="index">
+    <swiper-item>
+      <image src='{{item.url}}' class='u-img-slide' mode='aspectFill'></image>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 分类 -->
+<view class="sorts-wrap">
+  <view class="flex-wrap" wx:for="{{sortRows}}" wx:for-item="sortRow" wx:for-index="rowIndex">
+    <navigator url="{{sortRow.url}}">
+      <image src="{{sortRow.image}}"></image>
+      <text>{{sortRow.title}}</text>
+    </navigator>
+  </view>
+</view>
+<!-- 产品展示区 -->
+<view class="clear">
+  <view class="splitline"></view>
+</view>
+
+<view style="text-align:center"> 
+<text style="font-size:40rpx">产品专区</text>
+</view>
+<view class="card" wx:for="{{shopList}}" wx:for-index="index" bindtap="detail" data-id="{{item.id}}">
+        <view >
+            <text>{{item.title}}</text>
+            <image class="image" mode="aspectFill" src="{{item.image}}"/>
+            <view style="text-align:left">{{item.content}}</view>
+        </view>
+    </view>

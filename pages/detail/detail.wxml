@@ -1,0 +1,31 @@
+<!--pages/detail/detail.wxml-->
+<view>
+  <image src="{{detailData.image}}" style="width:100%"></image>
+  <view>{{detailData.title}}</view>
+  <view>{{detailData.price}}</view>
+  <view>
+    <text>{{detailData.content}}</text>
+    <button size="mini" bindtap="onShareAppMessage">分享</button>
+  </view>
+  <view>
+  <text>配送方式:自动发码</text>
+  </view>
+  <view>
+   <text>商品详情</text>
+   <view>{{detailData.content}}</view>
+  </view>
+</view>
+  <image src="{{detailData.image}}" style="width:100%"></image>
+    <image src="{{detailData.image}}" style="width:100%"></image>
+      <image src="{{detailData.image}}" style="width:100%"></image>
+        <image src="{{detailData.image}}" style="width:100%"></image>
+<view class="goods_bottom"></view>
+<view class="goods_bottom_btn">
+  <view>
+
+    <view class="goods_half_half red">首页</view>
+     <view class="goods_half_half red">客服</view>
+    <view class="goods_half_half blue">加入购物车</view>
+    <view class="goods_half_half green">立即购买</view>
+  </view>
+</view>

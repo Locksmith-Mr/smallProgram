@@ -1,0 +1,36 @@
+/* pages/detail/detail.wxss */
+.goods_bottom {
+  height: 50px;
+}
+.goods_bottom_btn {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+  z-index: 99;
+  background-color: #FFF;
+  border-top: 1px solid #E5E5E5;
+}
+.goods_one {
+  width: 25%;
+  float: left;
+  height: 50px;
+}
+.goods_half_half {
+  width: 25%;
+  float: left;
+  height: 50px;
+  font-size: 12px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFF;
+}
+.red {
+  background-color: #FFA500;
+}
+.green {
+  background-color: #69C3AA;
+}
+.blue {
+  background-color: #00aaef;
+}
