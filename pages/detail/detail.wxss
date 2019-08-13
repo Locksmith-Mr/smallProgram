@@ -1,36 +1,63 @@
 /* pages/detail/detail.wxss */
+
+.price {
+  margin: 16rpx;
+  color: #ffa500;
+}
+/* 分享按钮 */
+.btnshare {
+  float: right;
+}
+/* 块信息 */
+.info {
+  color: #474646;
+  margin: 16rpx;
+}
+/* 分割线 */
+.line {
+  height: 12rpx;
+  background: #f5f5f5;
+  width: 100%;
+}
+
 .goods_bottom {
   height: 50px;
 }
+
 .goods_bottom_btn {
   position: fixed;
   width: 100%;
   bottom: 0;
   height: 50px;
   z-index: 99;
-  background-color: #FFF;
-  border-top: 1px solid #E5E5E5;
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
 }
+
 .goods_one {
   width: 25%;
   float: left;
   height: 50px;
 }
+
 .goods_half_half {
-  width: 25%;
+  width: 33.3%;
   float: left;
   height: 50px;
   font-size: 12px;
   line-height: 50px;
   text-align: center;
-  color: #FFF;
+  color: #fff;
 }
+
 .red {
-  background-color: #FFA500;
+  background-color: #ffa500;
 }
+
 .green {
-  background-color: #69C3AA;
+  background-color: #69c3aa;
 }
+
 .blue {
   background-color: #00aaef;
 }

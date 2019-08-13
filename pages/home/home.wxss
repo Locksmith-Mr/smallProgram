@@ -47,7 +47,7 @@
 }
 /* 产品列表 */
 .card {
-    border: 2px solid #ffffff;
+    /* border: 2px solid #ffffff; */
     border-radius: 5px;
     background-color: #ffffff;
     box-shadow: -5px 5px 5px #cccccc,0px 10px 10px #cccccc;

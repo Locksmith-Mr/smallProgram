@@ -55,25 +55,25 @@ Page({
     shopList:[
      {
         image: "../../resource/swiper/banner1.png",
-        content: " 用于出图打印的软件",
+        content: "专业出图 | 效率至上 | 功能齐全 | 价格实惠",
         title:"Tssd软件",
-        price:"$7777",
+        price:"77777777",
         url: "./",
         id:0
       },
       {
         image: "../../resource/swiper/banner2.png",
-        content: " 用于进行签章的软件",
+        content: "为签章而生 | 专注转一 | 自带CA认证 | 一键安装",
         title: "微管理软件",
-        price: "$9999",
+        price: "9999999",
         url: "./",
         id: 1
       },
       {
         image: "../../resource/swiper/banner3.png",
-        content: " 用于进行微型管理的软件",
+        content: "协作办公 | 多重权限 | 操作简单 | 安装方便",
         title: "协同软件",
-        price: "$8888",
+        price: "88888888",
         url: "./",
         id: 2
       },

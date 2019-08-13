@@ -17,3 +17,4 @@
     </view>
   </scroll-view>
 </view>
+        <image src="../../resource/swiper/bottom.png" style="width:100%"></image>

@@ -1,30 +1,36 @@
 <!--pages/detail/detail.wxml-->
+<image src="{{detailData.image}}" style="width:100%"></image>
 <view>
-  <image src="{{detailData.image}}" style="width:100%"></image>
-  <view>{{detailData.title}}</view>
-  <view>{{detailData.price}}</view>
-  <view>
-    <text>{{detailData.content}}</text>
-    <button size="mini" bindtap="onShareAppMessage">分享</button>
+  <view style="margin:16rpx;">{{detailData.title}}
+    <button size="mini" open-type="share" class="btnshare">分享</button>
   </view>
-  <view>
-  <text>配送方式:自动发码</text>
-  </view>
-  <view>
-   <text>商品详情</text>
-   <view>{{detailData.content}}</view>
+  <view style="color:#A9A9A9;margin:16rpx;">功能简洁|性能出色|支付有礼</view>
+  <view class="price">¥ {{detailData.price}}</view>
+  <view class="line"></view>
+  <view class="info">运费: 免运费</view>
+  <view class="info">配送方式: 自动发码 </view>
+  <view class="line"></view>
+  <view style="text-align:center">
+    <text style="color:#000000">商品详情</text>
+    <view style="margin:24rpx;">{{detailData.content}}</view>
   </view>
 </view>
-  <image src="{{detailData.image}}" style="width:100%"></image>
-    <image src="{{detailData.image}}" style="width:100%"></image>
-      <image src="{{detailData.image}}" style="width:100%"></image>
-        <image src="{{detailData.image}}" style="width:100%"></image>
+
+<image src="{{detailData.image}}" style="width:100%"></image>
+<image src="{{detailData.image}}" style="width:100%"></image>
+<image src="{{detailData.image}}" style="width:100%"></image>
+<image src="{{detailData.image}}" style="width:100%"></image>
 <view class="goods_bottom"></view>
 <view class="goods_bottom_btn">
   <view>
 
-    <view class="goods_half_half red">首页</view>
-     <view class="goods_half_half red">客服</view>
+    <view class="goods_half_half" style="color:#000000">
+    <view>
+    <text>首页</text>
+    <text>|客服</text>
+    </view>
+    
+    </view>
     <view class="goods_half_half blue">加入购物车</view>
     <view class="goods_half_half green">立即购买</view>
   </view>

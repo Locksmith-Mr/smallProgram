@@ -2,9 +2,8 @@
 
 .content-container {
 	display: -webkit-flex;
-
 	box-sizing: border-box;
-	padding-bottom: 100rpx;
+	/* padding-bottom: 100rpx; */
 }
 .classify-container {
 	width: 180rpx;

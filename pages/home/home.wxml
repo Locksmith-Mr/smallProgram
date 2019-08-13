@@ -21,13 +21,14 @@
   <view class="splitline"></view>
 </view>
 
-<view style="text-align:center"> 
-<text style="font-size:40rpx">产品专区</text>
+<view style="text-align:center">
+  <text style="font-size:40rpx">产品专区</text>
 </view>
 <view class="card" wx:for="{{shopList}}" wx:for-index="index" bindtap="detail" data-id="{{item.id}}">
-        <view >
-            <text>{{item.title}}</text>
-            <image class="image" mode="aspectFill" src="{{item.image}}"/>
-            <view style="text-align:left">{{item.content}}</view>
-        </view>
-    </view>
+  <view>
+    <image class="image" mode="aspectFill" src="{{item.image}}" />
+    <text>{{item.title}}</text>
+    <view style="color:A9A9A9;margin:16rpx;">{{item.content}}</view>
+    <button style="border:2rpx solid #FFD700;border-radius:24rpx" size="mini">立即购买</button>
+  </view>
+</view>
