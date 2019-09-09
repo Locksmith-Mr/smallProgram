@@ -41,4 +41,12 @@
   </view>
 
 </view>
+<!-- 测试用 -->
+<view wx:for="{{testCode}}" wx:for-item="item">
+<view>
+ <view>id: {{item.id}}</view>
+  <view>类别: {{item.classify_name}}</view>
+   <view>别名: {{item.classify_alias}}</view>
+</view>
+</view>
 <image src="../../resource/swiper/bottom.png" style="width:100%"></image>

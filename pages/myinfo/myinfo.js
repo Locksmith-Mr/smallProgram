@@ -76,6 +76,7 @@ Page({
         url: "./"
       },
     ],
+    testCode:[]
   },
 
   /**
@@ -108,6 +109,40 @@ Page({
         }
       })
     }
+
+var that=this;
+// GET请求
+    // wx.request({
+    //   url: 'http://localhost:82/test', //仅为示例，并非真实的接口地址
+    //   header: {
+    //     'content-type': 'application/json' // 默认值
+    //   },
+    //   method:'GET',
+    //   dataType:'json',
+    //   success(res) {
+    //     console.log(res.data)
+    //     that.setData({
+    //       testCode: res.data
+    //     })
+       
+    //   }
+    // })
+
+// post请求
+    wx.request({
+      url: 'http://localhost:82/test2', //仅为示例，并非真实的接口地址
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      method: 'POST',
+      dataType: 'json',
+      success(res) {
+        console.log(666666)
+       
+
+      }
+    })
+
   },
 
   /**
